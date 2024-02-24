@@ -58,8 +58,6 @@ fn main() {
                     Ok(num) => num,
                     Err(_) => 0,
                 };
-                // stack[pointer] = c as i32;
-                // c += 1;
             }
             '[' => {
                 if stack[pointer] == 0 {
